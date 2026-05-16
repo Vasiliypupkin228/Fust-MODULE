@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Fust-MODULE</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net481</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" />
+    <Reference Include="CommandSystem.Core" />
+    <Reference Include="Exiled.API" />
+    <Reference Include="UnityEngine.CoreModule" />
+    <Reference Include="Exiled.Events" />
+    <Reference Include="System.Core">
+      <HintPath>../.dotnet/shared/Microsoft.NETCore.App/6.0.36/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass" />
+    <Reference Include="AudioPlayerApi" />
+    <Reference Include="UnityEngine.AudioModule" />
+    <Reference Include="Exiled.CustomItems" />
+    <Reference Include="UnityEngine.PhysicsModule" />
+    <Reference Include="0Harmony" />
+    <Reference Include="ProjectMER" />
+    <Reference Include="LabApi" />
+    <Reference Include="MapEditorReborn" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="HintServiceMeow" />
+    <Reference Include="YamlDotNet" />
+    <Reference Include="Mirror" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Exiled.Permissions" />
+    <Reference Include="CustomEffectsAndItems" />
+    <Reference Include="System.Memory" />
+    <Reference Include="Exiled.CustomRoles" />
+  </ItemGroup>
+</Project>
